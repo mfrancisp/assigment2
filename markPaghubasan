@@ -1,0 +1,45 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class storyline : MonoBehaviour
+{
+
+    string introduction;
+    string myQuote;
+  
+    string line1;
+    string line2;
+    string line3;
+    string line4;
+    string line5;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        introduction = "My name is Mark Paghubasan";
+        myQuote = "Hop hop hop";
+
+        Debug.Log(introduction);
+        Debug.Log(myQuote);
+
+        line1 = "I am a block and i like to jump.";
+        line2 = "There are lots of platforms";
+        line3 = "I can jump through the top but I like to go on each level.";
+        line4 = "This game is pretty rough and imcomplete.";
+        line5 = "I hope the developer gets to finish this game one day.";
+
+        Debug.Log(line1);
+        Debug.Log(line2);
+        Debug.Log(line3);
+        Debug.Log(line4);
+        Debug.Log(line5);
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+}
